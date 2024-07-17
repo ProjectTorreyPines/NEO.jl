@@ -59,6 +59,7 @@ end
 include("input_neo.jl")
 include("hirshman_sigmar.jl")
 include("chang_hinton.jl")
+include("input_gacode.jl")
 
 function run_neo(input_neo::InputNEO)
     folder = mktempdir()
